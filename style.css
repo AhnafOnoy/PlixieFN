@@ -12,9 +12,9 @@ body h2{
   position: absolute;
   align-items: center;
   justify-content: center;
-  margin-bottom: 13% ;
-  font-size: xx-large;
-  letter-spacing: 18px;
+  margin-bottom: 16% ;
+  font-size: 2.8vw;
+  letter-spacing: 1.1vw;
   font-family: sans-serif;
   color: #71c6ff;
   cursor: pointer;
@@ -24,12 +24,12 @@ body h2:hover{
   color: #2c3a47;
   background-color:  #00acee;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 0.8vw;
   transition: 0.9s ease-in-out;
 }
 .sm a{
   display: inline-block;
-  font-size: 40px;
+  font-size: 3.5em;
   width: 100px;
   height: 100px;
   line-height: 100px;
@@ -71,13 +71,7 @@ body h2:hover{
   transform: skewY(-30deg);
   color: #2c3a47;
 }
-.sm a:nth-child(5){
-  color: #71c6ff;
-}
-.sm a:nth-child(5):hover{
-  color: #2c3a47;
-  background-color: #025cb1;
-}
+
 .sm a:nth-child(2){
   color: #71c6ff;
 }
@@ -85,17 +79,17 @@ body h2:hover{
   color: #2c3a47;
   background-color: #00acee;
 }
-.sm a:nth-child(1){
+.sm a:nth-child(3){
   color: #71c6ff;
 }
-.sm a:nth-child(1):hover{
+.sm a:nth-child(3):hover{
   color: #2c3a47;
   background-color: #cd486b;
 }
-.sm a:nth-child(3){
+.sm a:nth-child(1){
   color: #FF0000;
 }
-.sm a:nth-child(3):hover{
+.sm a:nth-child(1):hover{
   color: #2c3a47;
   background-color: #FF0000;
 }
@@ -106,10 +100,9 @@ body h2:hover{
   color: #2c3a47;
   background-color: #6441A4;
 }
-.sm a:nth-child(6){
-  color: #71c6ff;
-}
-.sm a:nth-child(6):hover{
-  color: #2c3a47;
-  background-color: #db2f2f;
+
+@media only screen and (max-device-width: 320px*625px) {
+ .sm a {
+     font-size: xx-small;
+ }
 }

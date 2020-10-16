@@ -142,7 +142,7 @@ body h3:hover{
 @media (max-width: 480px) {
   .sm a {
     position: relative;
-      font-size: 40px;
+      font-size: 34px;
       
   }
   body h2{
@@ -158,5 +158,8 @@ body h3:hover{
     margin-top: 90%;
     font-size: 13px;
     background: transparent;
+  }
+   body h3:hover{
+    letter-spacing: -1px;
   }
 }
